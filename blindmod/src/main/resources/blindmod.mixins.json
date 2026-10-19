@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "blindmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["PlayerEntityMixin", "ScreenHandlerMixin", "ServerPlayNetworkHandlerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

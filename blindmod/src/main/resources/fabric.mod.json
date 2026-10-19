@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blindmod",
+  "version": "0.1.0",
+  "name": "Blind Mod",
+  "description": "Слепой режим: мир узнаётся тростью.",
+  "authors": [],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["blindmod.BlindMod"],
+    "client": ["blindmod.BlindClient"]
+  },
+  "mixins": [
+    "blindmod.mixins.json",
+    { "config": "blindmod.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

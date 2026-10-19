@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "blindmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+  "BackgroundRendererMixin",
+  "BlockEntityRenderDispatcherMixin",
+  "ChunkRendererRegionMixin",
+  "BlockRenderManagerMixin",
+  "DebugHudMixin",
+  "EntityRenderDispatcherMixin",
+  "WorldRendererMixin"
+],
+  "injectors": { "defaultRequire": 0 }
+}
